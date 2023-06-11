@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validtion</title>
+  </head>
+  <link rel="stylesheet" href="../css/all.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+  <body>
+    <section class="wrapper">
+      <div class="container">
+        <div
+          class="col-sm-8 offset-sm-2 col-lg-6 col-xl-4 offset-xl-4 text-center"
+        >
+          <!-- <div class="logo">
+            <img
+              src="../image/WhatsApp Image 2023-05-27 at 13.08.36.jpeg"
+              class="img-fluid"
+            />
+          </div> -->
+          <div class="calculator">
+            <form class="rounded bg-white shadow p-5">
+              <h3 class="text-dark fw-bolder fs-4 mb-2">Create Account</h3>
+              <div class="fw-normal text-muted mb-4">
+                if you have account singin
+                <a class="text-primary fw-bold text-decoration-none">
+                  Singinhere?</a
+                >
+              </div>
+              <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping"
+                  ><i class="fa-solid fa-user"></i>
+                </span>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                  id="name"
+                />
+              </div>
+              <i class="fa-solid"></i>
+              <span id="NameError"> </span>
+
+              <div class="input-group flex-nowrap mt-3">
+                <span class="input-group-text" id="addon-wrapping">
+                  <i class="fa-solid fa-envelope"></i>
+                </span>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  aria-label="Email"
+                  aria-describedby="addon-wrapping"
+                  for="email"
+                  id="mail"
+                />
+              </div>
+              <i class="fa-solid"></i>
+
+              <span id="EmailError"> </span>
+
+              <div class="input-group flex-nowrap mt-3">
+                <span class="input-group-text" id="addon-wrapping"
+                  ><i class="fa-solid fa-lock"></i
+                ></span>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="EnterPassword"
+                  aria-label="Password"
+                  aria-describedby="addon-wrapping"
+                  id="password"
+                  for="password"
+                />
+              </div>
+              <i class="fa-solid"></i>
+
+              <span id="PasswordError"> </span>
+              <button
+                value="CreateAccount"
+                type="Submit"
+                id="submitbtn"
+                class="btn btn-primary mt-3 text-center"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/font.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/swiper-bundle.esm.browser.min.js"></script>
+  </body>
+</html>
